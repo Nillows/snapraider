@@ -10,7 +10,7 @@ TMP_SCRIPT="/tmp/snapraid_gen.sh"  # Location for temporary script
 TMUX_SESSION="snapraider"       # Name of the tmux session
 
 # Media root directory - base path for all media
-MEDIA_ROOT="/var/lib/emby/media"  # Change this to your media root directory
+MEDIA_ROOT="/media/data"  # Change this to your media root directory
 
 # Content file settings
 CONTENT_FILE_PER_DRIVE=true     # If true, creates a content file on each data drive for redundancy
@@ -35,7 +35,7 @@ POOL_DEFINITIONS=(
 )
 
 # HDD pattern to search for in each directory
-# This is the naming pattern for your hard drive directories mount points
+# This is the shared naming pattern for your hard drive directories seperate mount points
 HDD_PATTERN="HDD*"
 
 # Snapraid configuration options
