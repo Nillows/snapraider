@@ -21,9 +21,6 @@ PRIMARY_CONTENT_PATH="/var/snapraid.content"  # Path for the primary content fil
 # Format: "Category Name:prefix:/path/relative/to/media/root"
 # Each line defines one category, with a friendly name, the prefix for data disks, and subdirectory
 
-# Step 1) Make new category directory in MEDIA_ROOT
-# Step 2) Add at least one subdirectory following HDD_PATTERN naming scheme below.
-
 POOL_DEFINITIONS=(
     "Parity Drives:parity:parity"
     "TV Mount points:tv:tvshows"
