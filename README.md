@@ -3,7 +3,7 @@
 ## Description
 SnapRAIDer is a powerful, customizable bash script that dynamically generates SnapRAID configuration files for your storage array. It simplifies the setup and maintenance of SnapRAID by automatically detecting your drives and creating an optimized configuration based on your specific needs.
 
-![SnapRAID Logo](https://www.snapraid.it/images/title.png)
+![SnapRAID Logo]([https://www.snapraid.it/images/title.png])
 
 ## Table of Contents
 * [Key Features](#key-features)
